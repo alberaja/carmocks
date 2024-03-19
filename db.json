@@ -1,0 +1,857 @@
+{
+  "aggregates": {
+    "carCategories": [
+      {
+        "available": true,
+        "numVehicles": 8,
+        "value": "carriers"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "carriers_5"
+      },
+      {
+        "available": true,
+        "numVehicles": 8,
+        "value": "carriers_5_2"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "carriers_7"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "carriers_8"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "carriers_9"
+      },
+      {
+        "available": true,
+        "numVehicles": 7,
+        "value": "compact"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "convertible"
+      },
+      {
+        "available": true,
+        "numVehicles": 2,
+        "value": "economy"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "estate"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "full_size"
+      },
+      {
+        "available": true,
+        "numVehicles": 10,
+        "value": "intermediate"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "luxury"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "mini"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "premium"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "standard"
+      },
+      {
+        "available": true,
+        "numVehicles": 2,
+        "value": "suvs"
+      }
+    ],
+    "damageExcessCategories": [
+      {
+        "available": true,
+        "numVehicles": 4,
+        "value": "1000_OR_BELOW"
+      },
+      {
+        "available": true,
+        "numVehicles": 10,
+        "value": "1200_OR_BELOW"
+      },
+      {
+        "available": true,
+        "numVehicles": 10,
+        "value": "1500_OR_BELOW"
+      },
+      {
+        "available": true,
+        "numVehicles": 19,
+        "value": "5000_OR_BELOW"
+      }
+    ],
+    "depositAmountCategories": [
+      {
+        "available": true,
+        "numVehicles": 14,
+        "value": "250_OR_BELOW"
+      },
+      {
+        "available": true,
+        "numVehicles": 16,
+        "value": "500_OR_BELOW"
+      },
+      {
+        "available": true,
+        "numVehicles": 16,
+        "value": "750_OR_BELOW"
+      },
+      {
+        "available": true,
+        "numVehicles": 17,
+        "value": "1000_OR_BELOW"
+      }
+    ],
+    "depositBuckets": [
+      {
+        "available": true,
+        "depositRange": {
+          "maxRange": "300",
+          "minRange": "0"
+        },
+        "numVehicles": 14,
+        "value": "BUCKET_1"
+      },
+      {
+        "available": true,
+        "depositRange": {
+          "maxRange": "600",
+          "minRange": "300"
+        },
+        "numVehicles": 2,
+        "value": "BUCKET_2"
+      },
+      {
+        "available": true,
+        "depositRange": {
+          "maxRange": "UNBOUNDED",
+          "minRange": "600"
+        },
+        "numVehicles": 3,
+        "value": "BUCKET_3"
+      }
+    ],
+    "depotLocationTypes": [
+      {
+        "available": true,
+        "numVehicles": 3,
+        "value": "DOWNTOWN"
+      },
+      {
+        "available": true,
+        "numVehicles": 4,
+        "value": "TRAINSTATION"
+      },
+      {
+        "available": true,
+        "numVehicles": 4,
+        "value": "SHUTTLE_BUS"
+      },
+      {
+        "available": true,
+        "numVehicles": 8,
+        "value": "IN_TERMINAL"
+      }
+    ],
+    "freeCancellation": [
+      {
+        "available": true,
+        "numVehicles": 19,
+        "value": "WITH_FREE_CANCELLATION"
+      }
+    ],
+    "fuelPolicyTypes": [
+      {
+        "available": true,
+        "numVehicles": 19,
+        "value": "RETURN_SAME"
+      }
+    ],
+    "fuelTypes": [
+      {
+        "available": true,
+        "numVehicles": 950,
+        "value": "N/A"
+      },
+      {
+        "available": true,
+        "numVehicles": 5,
+        "value": "Hibrido"
+      },
+      {
+        "available": true,
+        "numVehicles": 8,
+        "value": "Hibrido enchufable"
+      },
+      {
+        "available": true,
+        "numVehicles": 8,
+        "value": "Hibrido no enchufable"
+      },
+      {
+        "available": true,
+        "numVehicles": 5,
+        "value": "Hibrido ligero"
+      },
+      {
+        "available": true,
+        "numVehicles": 5,
+        "value": "Electrico"
+      },
+      {
+        "available": true,
+        "numVehicles": 7,
+        "value": "Petrol"
+      },
+      {
+        "available": true,
+        "numVehicles": 16,
+        "value": "Diesel"
+      }
+    ],
+    "groups": [
+      {
+        "available": true,
+        "averageDriveAwayPrice": 179.86,
+        "categories": [
+          "convertible",
+          "economy",
+          "mini"
+        ],
+        "numBookings": 1,
+        "numVehicles": 2,
+        "priceFrom": 153.09,
+        "seatsMode": {
+          "mode": 132,
+          "value": {
+            "additionalSeats": 0,
+            "baseSeats": 5
+          }
+        },
+        "suitcasesMode": {
+          "mode": 235,
+          "value": {
+            "bigSuitcase": 1,
+            "smallSuitcase": 1
+          }
+        },
+        "value": "small"
+      },
+      {
+        "available": true,
+        "averageDriveAwayPrice": 243.32,
+        "categories": [
+          "compact",
+          "estate",
+          "intermediate",
+          "suvs"
+        ],
+        "numBookings": 0,
+        "numVehicles": 9,
+        "priceFrom": 133.54,
+        "seatsMode": {
+          "mode": 497,
+          "value": {
+            "additionalSeats": 0,
+            "baseSeats": 5
+          }
+        },
+        "suitcasesMode": {
+          "mode": 400,
+          "value": {
+            "bigSuitcase": 1,
+            "smallSuitcase": 1
+          }
+        },
+        "value": "medium"
+      },
+      {
+        "available": true,
+        "averageDriveAwayPrice": 357.84,
+        "categories": [
+          "estate",
+          "full_size",
+          "intermediate",
+          "luxury",
+          "premium",
+          "standard",
+          "suvs"
+        ],
+        "numBookings": 1,
+        "numVehicles": 2,
+        "priceFrom": 202.21,
+        "seatsMode": {
+          "mode": 414,
+          "value": {
+            "additionalSeats": 0,
+            "baseSeats": 5
+          }
+        },
+        "suitcasesMode": {
+          "mode": 143,
+          "value": {
+            "bigSuitcase": 2,
+            "smallSuitcase": 1
+          }
+        },
+        "value": "large"
+      },
+      {
+        "available": false,
+        "averageDriveAwayPrice": 309.28,
+        "categories": [
+          "compact",
+          "estate",
+          "full_size",
+          "intermediate",
+          "standard"
+        ],
+        "numBookings": 0,
+        "numVehicles": 0,
+        "seatsMode": {
+          "mode": 59,
+          "value": {
+            "additionalSeats": 0,
+            "baseSeats": 5
+          }
+        },
+        "suitcasesMode": {
+          "mode": 24,
+          "value": {
+            "bigSuitcase": 1,
+            "smallSuitcase": 1
+          }
+        },
+        "value": "estate"
+      },
+      {
+        "available": false,
+        "averageDriveAwayPrice": 502.7,
+        "categories": [
+          "convertible",
+          "economy",
+          "luxury",
+          "mini",
+          "premium",
+          "suvs"
+        ],
+        "numBookings": 0,
+        "numVehicles": 0,
+        "seatsMode": {
+          "mode": 85,
+          "value": {
+            "additionalSeats": 0,
+            "baseSeats": 5
+          }
+        },
+        "suitcasesMode": {
+          "mode": 42,
+          "value": {
+            "bigSuitcase": 2,
+            "smallSuitcase": 1
+          }
+        },
+        "value": "premium"
+      },
+      {
+        "available": true,
+        "averageDriveAwayPrice": 507.49,
+        "categories": [
+          "carriers",
+          "carriers_5",
+          "carriers_5_2",
+          "carriers_7",
+          "carriers_8",
+          "carriers_9",
+          "compact",
+          "full_size",
+          "intermediate",
+          "premium",
+          "standard"
+        ],
+        "numBookings": 0,
+        "numVehicles": 8,
+        "priceFrom": 219.31,
+        "seatsMode": {
+          "mode": 30,
+          "value": {
+            "additionalSeats": 2,
+            "baseSeats": 5
+          }
+        },
+        "suitcasesMode": {
+          "mode": 58,
+          "value": {
+            "bigSuitcase": 1,
+            "smallSuitcase": 1
+          }
+        },
+        "value": "carriers"
+      },
+      {
+        "available": true,
+        "averageDriveAwayPrice": 295.13,
+        "categories": [
+          "compact",
+          "full_size",
+          "intermediate",
+          "luxury",
+          "premium",
+          "standard",
+          "suvs"
+        ],
+        "numBookings": 1,
+        "numVehicles": 2,
+        "priceFrom": 202.21,
+        "seatsMode": {
+          "mode": 287,
+          "value": {
+            "additionalSeats": 0,
+            "baseSeats": 5
+          }
+        },
+        "suitcasesMode": {
+          "mode": 105,
+          "value": {
+            "bigSuitcase": 3,
+            "smallSuitcase": 0
+          }
+        },
+        "value": "suvs"
+      }
+    ],
+    "locations": [
+      {
+        "available": false,
+        "locationHash": "TWFkcmlkIC0gRGVsaWNpYXM=",
+        "numBookings": 0,
+        "numVehicles": 0,
+        "value": "Madrid - Delicias"
+      },
+      {
+        "available": false,
+        "locationHash": "TWFkcmlkIC0gTWFqYWRhaG9uZGEgQ2VudHJvIENvbWVyY2lhbCBFcXVpbm9jaW8=",
+        "numBookings": 0,
+        "numVehicles": 0,
+        "value": "Madrid - Majadahonda Centro Comercial Equinocio"
+      },
+      {
+        "available": false,
+        "locationHash": "TWFkcmlkIC0gUGxhemEgRXNwYW5h",
+        "numBookings": 0,
+        "numVehicles": 0,
+        "value": "Madrid - Plaza España"
+      },
+      {
+        "available": false,
+        "locationHash": "QWxjb3Jjb24gLSBDYWxsZSBQb2x2b3JhbmNh",
+        "numBookings": 0,
+        "numVehicles": 0,
+        "value": "Alcorcón - Calle Polvoranca"
+      },
+      {
+        "available": false,
+        "locationHash": "TWFkcmlkIC0gUGxhemEgZGUgQ2FzdGlsbGE=",
+        "numBookings": 0,
+        "numVehicles": 0,
+        "value": "Madrid - Plaza de Castilla"
+      },
+      {
+        "available": false,
+        "locationHash": "QWxjb2JlbmRhcyAtIExhcyBUYWJsYXM=",
+        "numBookings": 0,
+        "numVehicles": 0,
+        "value": "Alcobendas - Las Tablas"
+      },
+      {
+        "available": false,
+        "locationHash": "TWFkcmlkIC0gQWxjb3Jjb24=",
+        "numBookings": 0,
+        "numVehicles": 0,
+        "value": "Madrid - Alcorcón"
+      },
+      {
+        "available": false,
+        "locationHash": "QWxjb3Jjb24gRG93bnRvd24=",
+        "numBookings": 0,
+        "numVehicles": 0,
+        "value": "Alcorcón Centro"
+      },
+      {
+        "available": true,
+        "locationHash": "TWFkcmlkIC0gQ2hhbWFydGluIFRyYWluIFN0YXRpb24=",
+        "lowestVehiclePrice": 185.31,
+        "lowestVehiclePriceCurrency": "EUR",
+        "numBookings": 2,
+        "numVehicles": 2,
+        "value": "Madrid - Estación de Chamartín"
+      },
+      {
+        "available": false,
+        "locationHash": "TGVnYW5lcyAtIENhbGxlIGRlbCBSZXkgUGFzdG9y",
+        "numBookings": 0,
+        "numVehicles": 0,
+        "value": "Leganés - Calle del Rey Pastor"
+      },
+      {
+        "available": false,
+        "locationHash": "TWFkcmlkIC0gQ2hhbWJlcmk=",
+        "numBookings": 0,
+        "numVehicles": 0,
+        "value": "Madrid - Chamberí"
+      },
+      {
+        "available": true,
+        "locationHash": "TWFkcmlkIC0gQWxjb2JlbmRhcw==",
+        "lowestVehiclePrice": 168.46,
+        "lowestVehiclePriceCurrency": "EUR",
+        "numBookings": 0,
+        "numVehicles": 1,
+        "value": "Madrid - Alcobendas Centro"
+      },
+      {
+        "available": false,
+        "locationHash": "TWFkcmlkIC0gTnVldm9zIE1pbmlzdGVyaW9z",
+        "numBookings": 0,
+        "numVehicles": 0,
+        "value": "Madrid - Nuevos Ministerios"
+      },
+      {
+        "available": false,
+        "locationHash": "TWFqYWRhaG9uZGEgRG93bnRvd24=",
+        "numBookings": 0,
+        "numVehicles": 0,
+        "value": "Majadahonda Centro"
+      },
+      {
+        "available": true,
+        "locationHash": "TWFkcmlkIFRyYWluIFN0YXRpb24=",
+        "lowestVehiclePrice": 219.31,
+        "lowestVehiclePriceCurrency": "EUR",
+        "numBookings": 5,
+        "numVehicles": 2,
+        "value": "Madrid - Estación de Atocha"
+      },
+      {
+        "available": true,
+        "locationHash": "TWFkcmlkIEFpcnBvcnQgVGVybWluYWwgNA==",
+        "lowestVehiclePrice": 389.58,
+        "lowestVehiclePriceCurrency": "EUR",
+        "numBookings": 2,
+        "numVehicles": 2,
+        "value": "Madrid Aeropuerto Terminal 4"
+      },
+      {
+        "available": true,
+        "locationHash": "TWFkcmlkIC0gQ29zbGFkYQ==",
+        "lowestVehiclePrice": 168.46,
+        "lowestVehiclePriceCurrency": "EUR",
+        "numBookings": 0,
+        "numVehicles": 1,
+        "value": "Madrid - Coslada"
+      },
+      {
+        "available": true,
+        "locationHash": "TWFkcmlkIEFpcnBvcnQ=",
+        "lowestVehiclePrice": 133.54,
+        "lowestVehiclePriceCurrency": "EUR",
+        "numBookings": 25,
+        "numVehicles": 8,
+        "value": "Madrid Aeropuerto"
+      },
+      {
+        "available": false,
+        "locationHash": "TWFkcmlkIC0gU2FuIExlb25hcmRv",
+        "numBookings": 0,
+        "numVehicles": 0,
+        "value": "Madrid - San Leónardo"
+      },
+      {
+        "available": true,
+        "locationHash": "TWFkcmlkIC0gQ2FsbGUgZGUgSnVsaWFuIENhbWFyaWxsbw==",
+        "lowestVehiclePrice": 280.19,
+        "lowestVehiclePriceCurrency": "EUR",
+        "numBookings": 0,
+        "numVehicles": 1,
+        "value": "Madrid - Calle de Julián Camarillo"
+      },
+      {
+        "available": true,
+        "locationHash": "TWFkcmlkIEFpcnBvcnQgVGVybWluYWwgMQ==",
+        "lowestVehiclePrice": 389.58,
+        "lowestVehiclePriceCurrency": "EUR",
+        "numBookings": 0,
+        "numVehicles": 2,
+        "value": "Madrid Aeropuerto Terminal 1"
+      }
+    ],
+    "matches": {
+      "matchCountAfterFiltering": 19
+    },
+    "mileageTypes": [
+      {
+        "available": true,
+        "numVehicles": 2,
+        "value": "LIMITED"
+      },
+      {
+        "available": true,
+        "numVehicles": 17,
+        "value": "UNLIMITED"
+      }
+    ],
+    "payWhen": [
+      {
+        "available": true,
+        "numVehicles": 19,
+        "value": "PAY_NOW"
+      }
+    ],
+    "pricePerDayBuckets": [
+      {
+        "available": true,
+        "details": {
+          "maxRange": "50",
+          "minRange": "0"
+        },
+        "numVehicles": 1,
+        "value": "BUCKET_1"
+      },
+      {
+        "available": true,
+        "details": {
+          "maxRange": "100",
+          "minRange": "50"
+        },
+        "numVehicles": 12,
+        "value": "BUCKET_2"
+      },
+      {
+        "available": true,
+        "details": {
+          "maxRange": "150",
+          "minRange": "100"
+        },
+        "numVehicles": 6,
+        "value": "BUCKET_3"
+      },
+      {
+        "available": false,
+        "details": {
+          "maxRange": "200",
+          "minRange": "150"
+        },
+        "numVehicles": 0,
+        "value": "BUCKET_4"
+      },
+      {
+        "available": false,
+        "details": {
+          "maxRange": "UNBOUNDED",
+          "minRange": "200"
+        },
+        "numVehicles": 0,
+        "value": "BUCKET_5"
+      }
+    ],
+    "propositionTypes": [
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "RR"
+      },
+      {
+        "available": true,
+        "numVehicles": 19,
+        "value": "BR"
+      }
+    ],
+    "seatCategories": [
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "4"
+      },
+      {
+        "available": true,
+        "numVehicles": 11,
+        "value": "5"
+      },
+      {
+        "available": true,
+        "numVehicles": 8,
+        "value": "6_OR_ABOVE"
+      }
+    ],
+    "supplierNames": [
+      {
+        "available": true,
+        "numVehicles": 1,
+        "value": "Alamo"
+      },
+      {
+        "available": true,
+        "numVehicles": 4,
+        "value": "Avis"
+      },
+      {
+        "available": true,
+        "numVehicles": 4,
+        "value": "Budget"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "Centauro"
+      },
+      {
+        "available": true,
+        "numVehicles": 4,
+        "value": "Clickrent"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "Dollar"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "Drivalia"
+      },
+      {
+        "available": true,
+        "numVehicles": 4,
+        "value": "Enterprise"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "Europcar"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "Flizzr"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "Goldcar"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "Hertz"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "Keddy By Europcar"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "Key'n Go by Goldcar"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "OK Mobility"
+      },
+      {
+        "available": true,
+        "numVehicles": 2,
+        "value": "Record Go"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "RentalPlus"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "Sixt"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "Thrifty"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "Your Keys Rent a Car"
+      }
+    ],
+    "supplierRatings": [
+      {
+        "available": true,
+        "numVehicles": 19,
+        "value": "5_OR_ABOVE"
+      },
+      {
+        "available": true,
+        "numVehicles": 19,
+        "value": "6_OR_ABOVE"
+      },
+      {
+        "available": true,
+        "numVehicles": 19,
+        "value": "7_OR_ABOVE"
+      },
+      {
+        "available": true,
+        "numVehicles": 12,
+        "value": "8_OR_ABOVE"
+      },
+      {
+        "available": true,
+        "numVehicles": 1,
+        "value": "9_OR_ABOVE"
+      }
+    ],
+    "transmissionTypes": [
+      {
+        "available": true,
+        "numVehicles": 19,
+        "value": "AUTOMATICO"
+      },
+      {
+        "available": false,
+        "numVehicles": 0,
+        "value": "MANUAL"
+      }
+    ]
+  }
+}
